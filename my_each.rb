@@ -1,8 +1,8 @@
 def my_each(words)
    words = ['hi', 'hello', 'bye', 'goodbye']
    if block_given?
-   words.map do |word|
-   yield("#{word}")
+   words.map do |n|
+   yield("#{n}")
    end 
    #end
 my_each(word) {i}
